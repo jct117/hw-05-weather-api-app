@@ -1,0 +1,136 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.container > h2 {
+  margin-bottom: 40px;
+  align-content: center;
+}
+
+.main {
+ display: auto;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh
+}
+
+.form-container, .weather-container {
+  width: 100%;
+  display: block;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.weather-container {
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currentTemp {
+  font: bold;
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  font-weight: bold;
+  font align-content: space-around;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.currentWeather {
+  width: 200px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.tempMinMax {
+  width: 200px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+#weather-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  font-weight: bold;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: fit-content;
+  width: 100%
+}
+
+#weather-form input {
+  padding: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+#weather-form button {
+  font-weight: bold;
+  background: #818194;
+  color: white;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 7px;
+}
+
+.cold {
+  color: blue;
+}
+
+.hot {
+  color:red;
+}
+
+.weather {
+  width: 100%;
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  table-layout: auto;
+}
+
+td {
+  padding: 10px;
+  /* border: solid 1px; */
+  text-align: center;
+  font-weight: bold;
+}

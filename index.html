@@ -7,11 +7,43 @@
   </head>
 
   <body>
+    <div class="container">
+    <h2>Whats the Weather?</h2>
+
+
+    <div class="main">
+      <span class="form-container">
+        <form id="weather-form">
+        <input type="text" id="city" placeholder="Enter City or Zip Code" />
+          <button>search</button>
+        </form>
+      </span>
+
+        <h2>Weather for <a class="currentCity">City</a></h2>
+      <div class="weather-container">
+        <table>
+          <tbody>
+            <tr class="weather">
+              <td>Curent Temperature<p class="currentTemp"></p></td>
+              <td>Min/Max Temperature<p class="tempMinMax"></p></td>
+              <td>Current Weather<p class="currentWeather"></p></td>
+
+            </tr>
+          </tbody>
+        </table>
+
+
+        </div>
+      </div>
+    </div>
+
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
